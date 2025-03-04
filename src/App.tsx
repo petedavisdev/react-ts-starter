@@ -1,3 +1,13 @@
+import { Properties } from './Properties';
+import data from './sample2';
+// import sampleData from './sampleData.json';
+
 export function App() {
-	return <h1>Hello World!</h1>;
+	return (
+		<>
+			<Properties object={data} />
+
+			{/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+		</>
+	);
 }
